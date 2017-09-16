@@ -1,0 +1,165 @@
+*{
+font-family: 'Raleway', sans-serif;
+}
+html{
+	padding-bottom: 50px;
+	height: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+body#INDEX{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 5%;
+	background-image: url('../img/img-carro.png');
+	height: 100%;
+    margin: 0;
+	}
+/*-----------------MENU--------------------------*/
+	header{
+		position: relative;
+	}
+	#indNav{
+		width: 700px;
+		margin: 30px 0;
+		position: absolute !important;
+	    right: 10%;
+		background-color: rgba(80,80,80,0.5);
+	}
+	nav>div a{
+		color: #fff;
+		font-size: 25px;
+		padding: 25px;
+	}
+		nav>div a:hover{
+			color: #fff;
+			text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.98);
+			text-decoration: none;
+		}
+		nav div a:visited{
+			color: #fff;
+			text-decoration: underline;
+		}
+
+	/*NAV ACERCA Y GALERIA*/
+	#headerNoindx{
+		position: fixed !important;
+		background-color: #515151;
+		width: 100%;
+		z-index: 2;
+	}
+	.elnav{		
+		height: 60px;
+		width: 700px;
+		float: right;
+	}
+
+/*-------------------INDEX-----------------------*/
+	.cont-inicio{
+		position: relative;		
+	}
+	.titulo-inicio{
+		position: absolute;
+		top: 250px;
+		left: 33%;
+		right: 33%;
+		width: max-content;
+		}
+		.titulo-inicio h3{
+			font-size: 50px;
+			color: #9e8660;
+		}
+		.titulo-inicio h1{
+			margin-left: 100px;
+			font-size: 100px;
+			color: #fff;
+		}
+
+	.flecha{
+		position: absolute;
+		text-align:center;
+		}
+	.flecha div{
+		font-size: 30px;
+		color: #fff;
+	    height: 70px;
+	    width: 70px;
+	    border-radius: 50px;	    
+	    background-color: rgba(93,84,69,0.7);
+	    cursor: pointer;
+	}
+	.flecha div:hover{
+		font-size: 35px;
+	    height: 80px;
+	    width: 80px;
+	}
+	.flecha div i{
+		margin: 18% auto;
+	}
+	.fl1{
+		top: 250px;
+		left: 5%;
+	}
+	.fl2{
+		top: 250px;
+		right: 5%;
+	}
+	.fl3{		  
+	    top: 650px;
+	    left: 50%;
+	}
+
+/*------------------ACERCA-----------------------*/
+	.acerca{
+		padding-top: 100px;
+		background-color: #fbfbfb;
+	}
+	.infor{
+		margin-top: 20px;
+		margin-bottom: 20px; 
+	}
+	.infor>div>h3{
+		font-style: italic;
+		color: #9e8660;
+	}
+
+	.data{
+		background-color: #847a56;
+	}
+	.Desarrolladores{
+		text-align: center;
+		color: #fff;
+	}
+	.infoDes{
+		
+	}
+	.ContUser{
+		width: 100%;
+		background-color: #666150;
+		margin: 30px;
+		padding:10px;
+	}
+	.imgUser img{
+		height: 150px;
+		width: 150px;
+		margin:20px auto;
+	}
+	.dataUser span{
+		display: block;
+		text-align: center;
+		color: #fff;
+	}
+
+/*---------------RESPONSIVE----------------------*/
+	@media (max-width: 1024px){ /*-----------------IPAD*/
+
+	}
+
+	@media   (max-width: 760px){ /*-----------------CELULAR*/
+
+	}
+	@media (max-width: 640px){
+
+	}
