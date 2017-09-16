@@ -1,3 +1,5 @@
+
+/*ICONOS EN:https://semantic-ui.com/elements/icon.html#/icon*/
 *{
 font-family: 'Raleway', sans-serif;
 }
@@ -17,6 +19,9 @@ body#INDEX{
 	height: 100%;
     margin: 0;
 	}
+body{
+	background-color: #fbfbfb;
+}
 /*-----------------MENU--------------------------*/
 	header{
 		position: relative;
@@ -52,8 +57,11 @@ body#INDEX{
 	}
 	.elnav{		
 		height: 60px;
-		width: 700px;
+		width: 900px;
 		float: right;
+	}
+	.elNav div a{
+		text-align: center;
 	}
 
 /*-------------------INDEX-----------------------*/
@@ -133,13 +141,12 @@ body#INDEX{
 		color: #fff;
 	}
 	.infoDes{
-		
+		text-align: center;
 	}
 	.ContUser{
-		width: 100%;
 		background-color: #666150;
-		margin: 30px;
 		padding:10px;
+		margin: 30px auto;
 	}
 	.imgUser img{
 		height: 150px;
@@ -152,6 +159,19 @@ body#INDEX{
 		color: #fff;
 	}
 
+/*-----------------GALERIA-----------------------*/
+	.galeria{
+		padding-top: 100px;
+		background-color: #fbfbfb;
+	}
+	.tituloG{
+		font-style: italic;
+		color: #9e8660;
+		font-size: 4em;
+	}
+	.contIMG{
+		margin: 30px auto;
+	}
 /*---------------RESPONSIVE----------------------*/
 	@media (max-width: 1024px){ /*-----------------IPAD*/
 
