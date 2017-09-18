@@ -55,7 +55,7 @@ body{
 		width: 100%;
 		z-index: 2;
 	}
-	.elnav{		
+	.elnav{
 		height: 60px;
 		width: 900px;
 		float: right;
@@ -66,7 +66,7 @@ body{
 
 /*-------------------INDEX-----------------------*/
 	.cont-inicio{
-		position: relative;		
+		position: relative;
 	}
 	.titulo-inicio{
 		position: absolute;
@@ -94,7 +94,7 @@ body{
 		color: #fff;
 	    height: 70px;
 	    width: 70px;
-	    border-radius: 50px;	    
+	    border-radius: 50px;
 	    background-color: rgba(93,84,69,0.7);
 	    cursor: pointer;
 	}
@@ -114,7 +114,7 @@ body{
 		top: 250px;
 		right: 5%;
 	}
-	.fl3{		  
+	.fl3{
 	    top: 650px;
 	    left: 50%;
 	}
@@ -126,7 +126,7 @@ body{
 	}
 	.infor{
 		margin-top: 20px;
-		margin-bottom: 20px; 
+		margin-bottom: 20px;
 	}
 	.infor>div>h3{
 		font-style: italic;
@@ -161,7 +161,7 @@ body{
 
 /*-----------------GALERIA-----------------------*/
 	.galeria{
-		padding-top: 100px;
+		padding-top: 60px;
 		background-color: #fbfbfb;
 	}
 	.tituloG{
@@ -172,6 +172,12 @@ body{
 	.contIMG{
 		margin: 30px auto;
 	}
+
+/*----------------DESARROLLO---------------*/
+	.mes{
+		color: #9e8660;
+	}
+	
 /*---------------RESPONSIVE----------------------*/
 	@media (max-width: 1024px){ /*-----------------IPAD*/
 
