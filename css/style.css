@@ -78,7 +78,7 @@
 /*------------------NOSOTROS-----------------------*/
 	.nosotros{
 		background-color: #847a56;
-		padding: 8% 0;
+		padding: 5% 0;
 	}
 	.Desarrolladores{
 		text-align: center;
@@ -99,7 +99,20 @@
 		color: #fff;
 		height: auto;
 	}
+/*------------------VIDEO--------------------------*/
+	.video{
+		background-color: #847a56;
+		padding-bottom: 3%;
+		}
+		.contVideo{
 
+		}
+		.contVideo iframe{
+			height: 70vh;
+			width: 100%;
+			margin: 0 auto;
+			text-align: center;
+		}
 /*------------------CONTACTO-----------------------*/
 	.contacto{
 		height: 100vh;
