@@ -71,8 +71,8 @@ body{
 	.titulo-inicio{
 		position: absolute;
 		top: 250px;
-		left: 33%;
-		right: 33%;
+		left: 35%;
+		right: 35%;
 		width: max-content;
 		}
 		.titulo-inicio h3{
@@ -80,7 +80,7 @@ body{
 			color: #9e8660;
 		}
 		.titulo-inicio h1{
-			margin-left: 100px;
+			margin-left: 80px;
 			font-size: 100px;
 			color: #fff;
 		}
@@ -183,7 +183,7 @@ body{
 
 	}
 
-	@media   (max-width: 760px){ /*-----------------CELULAR*/
+	@media (max-width: 760px){ /*-----------------CELULAR*/
 
 	}
 	@media (max-width: 640px){

@@ -2,91 +2,207 @@
 <html>
 <head>
 	<title>Simulator Racer</title>
+	<link rel="icon" href="img/loog-mini.png">
 
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--Librerias-->			
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/icon.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-	<!--Estilos-->	
-	<link href="css/index.css" rel="stylesheet">
+	<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+	  	<link rel="stylesheet" type="text/css" href="css/icon.css">
+		<link rel="stylesheet" type="text/css" href="libs/camera/css/camera.css">
+	  	<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<!--Mis Estilos-->	
+		<link rel="stylesheet" type="text/css" href="css/style.css" >
 
 </head>
 
-<body id="INDEX">
-
-	<header>
-		<!-- nav class="navbar">
-		 	<div class="container-fluid">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span> 
-			      </button>
-			      <!--a class="navbar-brand" href="#">WebSiteName</a>
-			    </div>
-			    <div class="collapse navbar-collapse" id="myNavbar">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li><a href="#">Acerca</a></li>
-			        <li><a href="#">Desarrollo</a></li> 
-			        <li><a href="#">Galería</a></li> 
-			        <li><a href="#">Contacto</a></li> 
-			      </ul>
-			    </div>
-		  	</div>
-		</nav -->
-		<nav id="indNav">
-			<div class="col-sm-3" style="padding: 15px;">
-				<a href="acerca.html">Acerca</a>
-			</div>
-			<div class="col-sm-3" style="padding: 15px;">
-				<a href="desarrollo.html">Desarrollo</a>
-			</div>
-			<div class="col-sm-3" style="padding: 15px;">
-				<a href="galeria.html">Galería</a>
-			</div>
-			<div class="col-sm-3" style="padding: 15px;">
-				<a href="#">Contacto</a>
-			</div>
-		</nav>
+<body>
+	<header id="headerNoindx">
+		<nav class="navbar nb-color navbar-fixed-top" role="navigation">
+	        <div class = "container">
+	        	<div class="navbar-header">
+		            <button type="button" class="navbar-toggle nb-btn-mini" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		            	<span class="sr-only">More</span>
+		            	<i class="content icon" style="font-size: 30px;"></i>
+		            </button>
+		            <a class="navbar-brand logotipo" href="#main" id="mm">
+		            	<img src="img/logo2.png" class = "logoNav">
+		            </a>
+	        	</div>
+	          
+		        <div class="collapse navbar-collapse navbar-ex1-collapse" >
+		            <ul class="nav navbar-nav navbar-right listita">
+		              <li><a href="#acerca" class = "nb-link" id="">Acerca</a></li>
+		              <li><a href="#nosotros" class = "nb-link" id="">Nosotros</a></li>
+		              <li><a href="#galeria" class = "nb-link" id="">Galería</a></li>
+		              <li><a href="#contacto" class = "nb-link" id="">Contacto</a></li>      
+		            </ul>
+		        </div>
+	        </div>
+      	</nav>
 	</header>
 
 	<div class="container-fluid">
-		<div class="row inicio">
-			<div class="cont-inicio">
+		
+		<div class="row slider-inicio" id="main">
+			<div class="container logoSlider">
+				<img src="img/logo4.png" class="img-responsive">
+			</div>
+			<div class="fondoSlider"> </div>
+		</div>
 
-				<div class="titulo-inicio">
-					<h3>Simulator</h3>
-					<h1>RACERS</h1>
-				</div>
-
-				<div class="flecha fl1">
-					<div>
-						<i class="chevron left icon"></i>
+		<div class="row acerca" id="acerca">
+			<div class="container">
+				<div class="col-sm-12 infor">
+					<div class="col-sm-4">
+						<h3>¿Qué es el simulator RACERS?</h3>
+					</div>
+					<div class="col-sm-8">
+						<p>
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</p>
 					</div>
 				</div>
-
-				<div class="flecha fl2">
-					<div>
-						<i class="chevron right icon"></i>
+				<div class="col-sm-12 infor">
+					<div class="col-sm-4">
+						<h3>¿Cuál es su finalidad?</h3>
+					</div>
+					<div class="col-sm-8">
+						<p>
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</p>
 					</div>
 				</div>
-
-				<div class="flecha fl3">
-					<div>
-						<i class="chevron down icon"></i>
+				<div class="col-sm-12 infor">
+					<div class="col-sm-4">
+						<h3>¿Cómo es la experiencia?</h3>
+					</div>
+					<div class="col-sm-8">
+						<p>
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</p>
 					</div>
 				</div>
-
-			</div>		
-			
+				<div class="col-sm-12 infor">
+					<div class="col-sm-4">
+						<h3>¿Qué se espera a futuro?</h3>
+					</div>
+					<div class="col-sm-8">
+						<p>
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>	
+
+		<div class="row nosotros" id="nosotros">			
+			<div class="container">
+				<div class="col-sm-12 Desarrolladores">
+					<h3>Desarrolladores</h3>
+				</div>
+				<div class="col-sm-3 animated infoDes">
+					<div class="col-sm-12 imgUser">
+						<img src="img/userProfile.png" class="img-responsive">				
+					</div>
+					<div class="col-sm-12 dataUser">
+						<h4>NOMBRE</h4>
+						<h4>TELEFONO</h4>
+						<h4>otro</h4>
+						<h4>otro</h4>
+					</div>
+				</div>
+				<div class="col-sm-3 animated infoDes">
+					<div class="col-sm-12 imgUser">
+						<img src="img/userProfile.png" class="img-responsive">				
+					</div>
+					<div class="col-sm-12 dataUser">
+						<h4>NOMBRE</h4>
+						<h4>TELEFONO</h4>
+						<h4>otro</h4>
+						<h4>otro</h4>
+					</div>
+				</div>
+				<div class="col-sm-3 animated infoDes">
+					<div class="col-sm-12 imgUser">
+						<img src="img/userProfile.png" class="img-responsive">				
+					</div>
+					<div class="col-sm-12 dataUser">
+						<h4>NOMBRE</h4>
+						<h4>TELEFONO</h4>
+						<h4>otro</h4>
+						<h4>otro</h4>
+					</div>
+				</div>
+				<div class="col-sm-3 animated infoDes">
+					<div class="col-sm-12 imgUser">
+						<img src="img/userProfile.png" class="img-responsive">				
+					</div>
+					<div class="col-sm-12 dataUser">
+						<h4>NOMBRE</h4>
+						<h4>TELEFONO</h4>
+						<h4>otro</h4>
+						<h4>otro</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row galeria" id="galeria">
+			<div class="slider">
+		          <div class="camera_wrap" id="camera_wrap_2">
+		              <div id="1" data-thumb="img/thumb.png" data-src="img/1.png">
+		              </div>
+		              <div id="2" data-thumb="img/thumb.png" data-src="img/2.png">
+		              </div>
+		              <div id="3" data-thumb="img/thumb.png" data-src="img/3.png">
+		              </div>
+		              <div id="4" data-thumb="img/thumb.png" data-src="img/4.png">
+		              </div>
+		              <div id="5" data-thumb="img/thumb.png" data-src="img/5.png">
+		              </div>
+		              <div id="6" data-thumb="img/thumb.png" data-src="img/6.png">
+		              </div>
+		          </div><!-- #camera_wrap_2 -->
+      		</div>
+
+      		<div class="container">
+      			<h1>INFORMACIÓN</h1>
+      		</div>
+		</div>
+
+		<div class="row contacto" id="contacto">
+			<div class="container cont-data">
+				<div class="elCorreo">
+					<h2>Contáctanos a traves de nuestro correo</h2>
+					<div class="correo">
+						<i class="mail icon"></i> elcorreo@gmail.com
+					</div>			
+				</div>
+				<div class="laImagen">
+					<img src="img/people.png" class="img-responsive">
+				</div>
+				
+			</div>
+			
+		</div>
+
 	</div>
 	
 </body>
 	<!--Jcueros y eso-->
+
+
+	<!--JS-->
+		<script type="text/javascript" src = "js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src = "js/bootstrap.js"></script>
+		<!--Waypoint-->
+	    <script type="text/javascript" src = "js/jquery.waypoints.min.js"></script>
+	 	<script type="text/javascript" src = "js/noframework.waypoints.min.js"></script>
+		<!--Camera-->
+		<script type="text/javascript" src = "libs/camera/scripts/camera.min.js"></script>
+		<!--<script type='text/javascript' src="libs/camera/scripts/jquery.mobile.customized.min.js"></script> -->
+		<script type='text/javascript' src = "libs/camera/scripts/jquery.easing.1.3.js"></script>		 
+	    <script type="text/javascript" src = "js/master.js"></script>
+	 	<script type="text/javascript" src = "js/scrolito.js"></script>	
 </html>
