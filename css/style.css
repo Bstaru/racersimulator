@@ -65,7 +65,7 @@
 	.acerca{
 		padding-top: 5%;
 		background-color: #fbfbfb;
-		height: 100vh;
+		height: inherit;
 	}
 	.infor{
 		margin-top: 20px;
