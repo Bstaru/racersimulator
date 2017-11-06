@@ -10,11 +10,24 @@
         }
     });
 
+        //setTimeout(function () {
+        //    cuadro1.removeClass('elem-hide');
+        //}, 380);
+
 
     $('.infoDes').css('opacity', 0);
 
     $('#nosotros').waypoint(function() {
         $('.infoDes').addClass('bounceIn');
+        },
+        { offset: '50%' }
+    );
+
+
+    $('.theCar').css('opacity', 0);
+
+    $('#ultimaData').waypoint(function() {
+        $('.theCar').addClass('fadeInRight');
         },
         { offset: '50%' }
     );
