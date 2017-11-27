@@ -1,10 +1,27 @@
+@font-face 
+	{
+	   font-family: "Avernir_B";
+	   src: url("../fonts/AvenirNextLTPro-Bold.otf");
+	}
+@font-face 
+	{
+	   font-family: "Avernir_R";
+	   src: url("../fonts/AvenirNextLTPro-Regular.otf");
+	}
 
 
 *{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Avernir_R';
 }
+
+/*AvenirNextLTPro-MediumCn*/
 .parrafo{
 	font-size: 2.7vh;
+}
+
+.typ_name{
+	 font-family: "Avernir_B";
+	 height: 60px;
 }
 
 /*-----------------MENU--------------------------*/
@@ -82,6 +99,7 @@
 	.nosotros{
 		background-color: #847a56;
 		padding: 5% 0;
+		height: 100vh;
 	}
 	.Desarrolladores{
 		text-align: center;
@@ -95,33 +113,38 @@
 	.imgUser img{
 		margin:0 auto;
 		border-radius: 200px;
+		width: 200px;
+		min-width: 125px;
 	}
 	.dataUser{
 		display: block;
-		text-align: center;
 		color: #fff;
 		height: auto;
 	}
-/*------------------VIDEO--------------------------*/
-	.video{
-		background-color: #847a56;
-		padding-bottom: 3%;
-		}
-		.contVideo{
 
-		}
-		.contVideo iframe{
-			height: 70vh;
-			width: 100%;
-			margin: 0 auto;
-			text-align: center;
-		}
+	.dataUser h4 i {
+		margin-left: 5.5vw;
+		font-size: 4vh;
+	}
+
+/*------------------galeria--------------------------*/
+	.galeria{
+		height: 100vh;
+	}
+	.texto_titulo{
+		margin-top: 10vh;
+		text-align: center;
+	}
+	.slider{
+		margin-top: 5vh;
+	}		
 /*------------------CONTACTO-----------------------*/
 	.contacto{
 		height: 100vh;
+		position: relative;
 		}
 		.cont-data{
-			padding-top: 5%;
+			padding-top: 5%;			
 		}
 		.elCorreo{
 			display: block;
@@ -129,28 +152,72 @@
 			.correo{
 				font-size: 30px;
 			}
-		.laImagen{
-			display: block;
-			}
-			.laImagen img{
-				float: right;
-				width: 50%;
-			}
-		.logoFoot{
+	.laImagen_1, .laImagen_2{
+		position: absolute;
+		top: 25vh;
+		height: 45vh;
+	}		
 
+	.laImagen_1{
+		left: 4vw;
 		}
 
+	.laImagen_2{
+		right: 4vw;
+		}
 
+	.laImagen_1 img, .laImagen_2 img{
+		height: inherit;
+	}
+	.logoFoot{
+
+	}
+	/*------------------VIDEO--------------------------*/
+		.contVideo{
+			width: 55vw;
+			margin: 5vh auto 0 auto;
+		}
+		.contVideo iframe{
+			height: 55vh;
+			width: inherit;
+			text-align: center;
+		}
 
 
 /*---------------RESPONSIVE----------------------*/
 	@media (max-width: 1024px){ /*-----------------IPAD*/
+		.nosotros{
+			background-color: #847a56;
+			padding: 5% 0;
+			height: inherit;
+		}
 
-	}
+		.galeria{
+			height: inherit;
+		}
 
-	@media (max-width: 760px){ /*-----------------CELULAR*/
+		.contVideo{
+			width: 100%;
+			margin: 5vh auto 0 auto;
+		}
 
-	}
-	@media (max-width: 640px){
+		.laImagen_1, .laImagen_2{
+			position: absolute;
+			top: 68vh;
+			height: 30vh;
+		}		
 
+		.laImagen_1{
+			left: 19vw;
+			}
+
+		.laImagen_2{
+			right: 19vw;
+			}
+
+		.contVideo iframe{
+			height: 30vh;
+			width: inherit;
+			text-align: center;
+		}
 	}
